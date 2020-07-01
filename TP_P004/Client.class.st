@@ -7,7 +7,37 @@ Class {
 	#instVars : [
 		'NomClient',
 		'AdresseClient',
-		'Phoneclient'
+		'PhoneClient'
 	],
 	#category : #'TP_P004'
 }
+
+{ #category : #accessing }
+Client >> AdresseClient [
+^AdresseClient 
+]
+
+{ #category : #accessing }
+Client >> AdresseClient: Adresse [ 
+AdresseClient := Adresse 
+]
+
+{ #category : #accessing }
+Client >> NomClient [
+^NomClient
+]
+
+{ #category : #accessing }
+Client >> NomClient: nom [ 
+NomClient := nom 
+]
+
+{ #category : #accessing }
+Client >> PhoneClient [
+^PhoneClient
+]
+
+{ #category : #accessing }
+Client >> PhoneClient: phone [ 
+PhoneClient := phone 
+]
